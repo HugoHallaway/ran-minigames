@@ -224,7 +224,7 @@
           selected = selected + 1;
         }
         break;
-      case "a":
+      case "q":
         if (selected - 1 !== 0) {
           selected = selected - 1;
         }
@@ -237,7 +237,7 @@
       case "s":
         Up();
         break;
-      case "w":
+      case "z":
         Down();
         break;
       case "ArrowUp":
