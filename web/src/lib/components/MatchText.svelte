@@ -351,7 +351,7 @@
             </div>
           {/if}
         </div>
-        <div class="box" class:solved={allsolved}>
+        <div class="box original" class:solved={allsolved}>
           {#if allsolved}
             <h1
               class="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl font-bold"
@@ -380,6 +380,9 @@
   }
   .box.selected {
     @apply border border-double;
+  }
+  .box.original {
+    @apply border border-double border-blue-500;
   }
   .box {
     @apply w-[14em] h-[25.4rem] overflow-hidden  pb-6 relative;
